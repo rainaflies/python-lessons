@@ -7,7 +7,7 @@ if random_num < 5:
 	print("Hint: The number is less then 5.")
 else:
 	print("Hint: The number is 5 or greater.")
-	
+
 print("⎯"*79)
 
 while True:		
