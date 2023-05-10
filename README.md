@@ -1,2 +1,2 @@
 # python-lessons
-All the code I've written while learning Python starting with Hello World!
+These are simple, beginner friendly programs I wrote during my first year learning Python.
