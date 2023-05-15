@@ -1,2 +1,3 @@
-# python-lessons
-These are simple, beginner friendly programs I wrote during my first year learning Python.
+# Python lessons for kids
+
+This repository contains short Python programs to teach the basics of Python programming to kids and young learners in a simple, playful way. Each of these programs were written by Raina starting from the age of around 7 with guidance from her dad. They incorporate stories and themes from the life of a typical elementary school aged student. Pull requests are always welcome!

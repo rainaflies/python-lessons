@@ -2,8 +2,8 @@ while True:
 	print("Welcome to the job tool store.")
 	print("⎯"*79)
 	print("1. Firefighter 🚒")
-	print("2. Apple engineer 💻")
-	print("3. PG&E manager 💻")
+	print("2. Software engineer 💻")
+	print("3. Electrician 💻")
 	print("4. Librarian 👩🏾‍🏫")
 	print("5. Doctor 🏩")
 
@@ -16,7 +16,7 @@ while True:
 		print("💻 ⎯ ⌨️")
 
 	elif job == 3:
-		print("💻 🚚 ☎️")
+		print("🚚 ☎️ 💡")
 
 	elif job == 4:
 		print("📚 📅 ✐")
@@ -25,6 +25,6 @@ while True:
 		print("🩻 🩹 🩺")
 
 	else:
-		show_image("Thief")
+		print("I have no idea what you do!")
 
 	print("⎯"*79)
