@@ -19,7 +19,7 @@ You need to have your OpenAI API key for the program to work. This key should be
 
 ## Usage
 
-Upon launching the app, you will be presented with a menu of planets to choose from:
+Run the main.py script using Python: `python3 main.py`. Upon starting, you will be presented with a menu of planets to choose from:
 
 ```
 Please pick a planet:
