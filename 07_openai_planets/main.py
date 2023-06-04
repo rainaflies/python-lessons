@@ -12,6 +12,10 @@ def show_menu():
 	print("8. Neptune")
 	print("9. Pluto")
 	print("⎯"* 50)
+	
+def show_planet(planet):
+	show_planet_info(planet)
+	show_planet_picture(planet)
 
 def main():
 	show_menu()	
@@ -19,32 +23,23 @@ def main():
 	planet = int(input("Which planet do you want to learn about? "))
 	
 	if planet == 1:
-		show_planet_info("Mercury")
-		show_planet_picture("Mercury")
+		show_planet("Mercury")
 	elif planet == 2:
-		show_planet_info("Venus")
-		show_planet_picture("Venus")
-	elif planet == 3:	
-		show_planet_info("Earth")
-		show_planet_picture("Earth")
-	elif planet == 4:	
-		show_planet_info("Mars")
-		show_planet_picture("Mars")
-	elif planet == 5:	
-		show_planet_info("Jupiter")
-		show_planet_picture("Jupiter")
-	elif planet == 6:	
-		show_planet_info("Saturn")
-		show_planet_picture("Saturn")		
-	elif planet == 7:	
-		show_planet_info("Uranus")
-		show_planet_picture("Uranus")		
+		show_planet("Venus")
+	elif planet == 3:
+		show_planet("Earth")
+	elif planet == 4:
+		show_planet("Mars")
+	elif planet == 5:
+		show_planet("Jupiter")
+	elif planet == 6:
+		show_planet("Saturn")
+	elif planet == 7:
+		show_planet("Uranus")
 	elif planet == 8:	
-		show_planet_info("Neptune")
-		show_planet_picture("Neptune")
-	elif planet == 9:	
-		show_planet_info("Pluto")
-		show_planet_picture("Pluto")
+		show_planet("Neptune")
+	elif planet == 9:
+		show_planet("Pluto")
 	else:
 		print("Unknown planet!")
 
